@@ -6,9 +6,10 @@ int main(){
 
 //  a variable is a resusable container of  value
 
-float grade = 82.1;
-printf("I graduated with an  %.2f which translates to first class honors",grade);
+ float networth = 4000000;
 
-return 0;
+ printf("In 10 years time my net worth will be $%.2f ",networth);
+
+ return 0;
 }
 
