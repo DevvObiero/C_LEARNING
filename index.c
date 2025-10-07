@@ -2,6 +2,12 @@
 
 int main(){
 
-    printf("I will order for some food in a few minutes hehe");
-    return 0 ;
+    int age = 20;
+    int year = 2025;
+    int money = 80000;
+
+    printf("I am %d years old \n",age);
+    printf("We are currently in the year %d\n", year);
+    printf("I have amde a total of ksh%d  this year", money);
+    return 0;
 }
