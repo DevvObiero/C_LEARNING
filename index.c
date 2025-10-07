@@ -1,10 +1,7 @@
 #include <stdio.h>
-// #include <stdlio.h>
-
 
 int main(){
-    printf("Hello World!");
-    printf("I love Tasty food!/n");
-    return 0;
-}
 
+    printf("I will order for some food in a few minutes hehe");
+    return 0 ;
+}
