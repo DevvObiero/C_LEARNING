@@ -6,15 +6,13 @@ int main(){
 
 //  a variable is a resusable container of  value
 
- float networth = 4000000;
+// in C we dont have stringss
+// we use an array fo characters 
 
- char grade = 'A';
+char name[] = "Hello there ! My name is Paul Obiero";
+printf("Hello %s", name);
 
- printf("My grades this year will average to an %c which transtaltes to a first class honors\n", grade);
-
- printf("In 10 years time my net worth will be $%.2f ",networth);
-
- return 0;
+return 0;
 }
 
 
