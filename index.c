@@ -4,7 +4,10 @@
 
 int main(){
 
-    printf("Hello World");
+    int age;
+    float gpa;
+    char grade;
+    char name[30];
 
     return 0; 
 }
