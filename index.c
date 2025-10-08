@@ -1,4 +1,6 @@
 #include <stdio.h>
+# include <stdbool.h>
+
 
 int main(){
 
@@ -8,6 +10,10 @@ int main(){
 
 // in C we dont have stringss
 // we use an array fo characters 
+// learning about booleans
+
+bool isonline = false;
+printf("%d\n",isonline);
 
 char name[] = "Hello there ! My name is Paul Obiero";
 printf("Hello %s", name);
