@@ -4,8 +4,7 @@
 
 int main(){
 
-    int age = 25;
-    printf("%5d", age);
+    printf("Hello World");
 
     return 0; 
 }
