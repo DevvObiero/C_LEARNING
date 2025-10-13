@@ -10,18 +10,18 @@ int main(){
     char name[30] = "";
 
 printf("Enter your age: ");
-scanf("%d\n", &age);
+scanf("%d", &age);
 
 printf("What is your GPA?");
 scanf("%f", &gpa);
+
+printf("What is your grade?");
+scanf("%c", &grade);
 
 printf("%d\n", age);
 printf("%f\n", gpa);
 printf("%c\n", grade);
 printf("%s\n", name);
-
-
-
 
     return 0; 
 }
