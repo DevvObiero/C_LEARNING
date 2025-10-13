@@ -18,8 +18,9 @@ scanf("%f", &gpa);
 printf("What is your grade?");
 scanf(" %c", &grade);
 
+getchar();
 printf("Enter your full-name:");
-scanf("%s", &name);
+fgets(name,sizeof(name),stdin);
 
 printf("%d\n", age);
 printf("%f\n", gpa);
