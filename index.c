@@ -9,8 +9,11 @@ int main(){
     char grade = '\0';
     char name[30] = "";
 
+printf("Enter your age: ");
+scanf("%d\n", &age);
 
-
+printf("What is your GPA?");
+scanf("%f", &gpa);
 
 printf("%d\n", age);
 printf("%f\n", gpa);
