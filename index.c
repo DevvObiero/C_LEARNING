@@ -24,4 +24,4 @@ printf("%s\n", name);
 }
 
 
-
+// scanf is used isnteead of printf to take input from the user.
