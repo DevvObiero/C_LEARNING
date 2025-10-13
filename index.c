@@ -1,6 +1,6 @@
 #include <stdio.h>
-# include <stdbool.h>
-
+#include <stdbool.h>
+#include <string.h>
 
 int main(){
 
@@ -20,7 +20,8 @@ scanf(" %c", &grade);
 
 getchar();
 printf("Enter your full-name:");
-fgets(name,sizeof(name),stdin);
+fgets(name, sizeof(name), stdin);
+name[strlen(name) - 1] = '\0';
 
 printf("%d\n", age);
 printf("%f\n", gpa);
