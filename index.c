@@ -13,7 +13,13 @@ char currency = "$";
 float total = 0.0f;
 
 printf("what item would you like to buy?:");
+fgets(item, sizeof(item), stdin);
+
+
 printf("what is the price for each?");
+
+
+
 printf("How many would you like to buy?");
 return 0; 
 }
