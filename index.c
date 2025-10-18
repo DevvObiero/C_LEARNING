@@ -7,11 +7,9 @@ int main(){
 
 // mathematics in C
 
-int x = 9;
+float x = 3.99;
 
-
-printf("Square root of %d is %.2f\n", x, pow(x,2));
-
+printf("Floor of %.2f is %.2f\n", x, floorf(x));
 
 
 return 0; 
