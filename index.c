@@ -17,10 +17,14 @@ fgets(item, sizeof(item), stdin);
 
 
 printf("what is the price for each?");
-
+scaf("%f", &price);
 
 
 printf("How many would you like to buy?");
+scanf("%d", &quantity);
+
+total = price * quantity;
+
 return 0; 
 }
 
