@@ -10,7 +10,7 @@ int main(){
 int x = 9;
 
 
-printf("Square root of %d is %.2f\n", x, sqrt(x));
+printf("Square root of %d is %.2f\n", x, pow(x,2));
 
 
 
