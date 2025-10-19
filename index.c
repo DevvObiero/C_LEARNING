@@ -9,7 +9,9 @@ int main(){
 
 float x = 3.99;
 
-printf("Floor of %.2f is %.2f\n", x, floorf(x));
+// printf("Floor of %.2f is %.2f\n", x, floorf(x));
+
+
 
 
 return 0; 
