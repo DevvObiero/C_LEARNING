@@ -6,7 +6,7 @@ int main() {
 
     double radius = 0.0;
     double area = 0.0;
-    const PI = 3.141592653589793;
+    const double PI = 3.141592653589793;
 
     printf("Enter the radius of the circle: ");
     scanf("%lf",&radius);
