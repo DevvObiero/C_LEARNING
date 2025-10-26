@@ -1,17 +1,13 @@
 #include <stdio.h>
-
-
+#include <stdbool.h>
 int main() {
-    int age;
-printf("Enter your age: ");
-scanf("%d", &age);
+    
 
-    if (age > 21)
-    {
-        printf("You are eligible to vote  nad drink alcohol.\n");
-    }else
-    {
-        printf("You are not eligible to vote and drink alcohol.\n");
+    bool isStudent = true;
+    if (isStudent) {
+        printf("The person is a student.\n");
+    } else {
+        printf("The person is not a student.\n");
     }
 
 
