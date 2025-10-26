@@ -1,14 +1,20 @@
 #include <stdio.h>
-#include <stdbool.h>
+#include <string.h>
+
 int main() {
     
-
-    bool isStudent = true;
-    if (isStudent) {
-        printf("The person is a student.\n");
-    } else {
-        printf("The person is not a student.\n");
+char name[50];
+    printf("Enter your name: ");
+    fgets(name, sizeof(name), stdin);
+    
+    // Remove newline character if present
+    size_t len = strlen(name);
+    if (len > 0 && name[len - 1] == '\n') {
+        name[len - 1] = '\0';
     }
+    
+    printf("Hello, %s!\n", name);
+
 
 
 
