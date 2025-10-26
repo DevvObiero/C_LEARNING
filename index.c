@@ -3,7 +3,8 @@
 
 
 int main() {
-
+double surfaceArea = 0.0; 
+    double volume = 0.0;
     double radius = 0.0;
     double area = 0.0;
     const double PI = 3.141592653589793;
@@ -14,5 +15,10 @@ int main() {
     area = PI * pow(radius, 2);
     printf("The area of the circle with radius %.2f is %.2f\n", radius, area);
 
-    return 0;
+surfaceArea = 4 * PI * pow(radius, 2);
+volume = (4.0/3.0) * PI * pow(radius, 3);
+
+
+
+return 0;
 }
