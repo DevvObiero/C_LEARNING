@@ -3,21 +3,15 @@
 
 
 int main() {
-double surfaceArea = 0.0; 
-    double volume = 0.0;
-    double radius = 0.0;
-    double area = 0.0;
-    const double PI = 3.141592653589793;
+double  principle = 0.0;
+double rate = 0.0 ;
+int years = 0 ;
+int years = 0 ;
+int timesCompounded = 0 ;
+double  totalAmount = 0.0;
 
-    printf("Enter the radius of the circle: ");
-    scanf("%lf",&radius);
-
-    area = PI * pow(radius, 2);
-    printf("The area of the circle with radius %.2f is %.2f\n", radius, area);
-
-surfaceArea = 4 * PI * pow(radius, 2);
-volume = (4.0/3.0) * PI * pow(radius, 3);
-
+printf("Enter the principle amount: ");
+scanf("$lf",&principle);
 
 
 return 0;
