@@ -1,28 +1,16 @@
 #include <stdio.h>
-// global variable
-// int globalVariable = 10;
- // function porotototype global declaration
-// int add(int x, int y);
 
-// int main() {
+int main(){
 
-//     int a = 5, b = 15;
-//     int sum = add(a, b);
-//     printf("Sum: %d\n", sum);
-//     printf("Global Variable: %d\n", globalVariable);
 
-//     return 0;
-// }
- // function definition 
-// int add(int x, int y) {
-//     return x + y + globalVariable;
-// }
+int age = 20;
 
-#include<stdio.h>
-int main() {
-    int a = 34;
-    float b = 45.985;
-    float sum = a + b;
-    printf("The sum is %f/n" , sum);
-    return 0;
+if(age >= 18 ){
+    printf("you are an adult");
+}else{
+  printf("You are a child");
+}
+
+
+  return 0;
 }
