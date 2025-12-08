@@ -1,48 +1,34 @@
 #include <stdio.h>
-#include <string.h>
-
-
+#include <stdbool.h>
 
 
 int main(){
-// switch =  a switch statement is an alternative for using many if-else statements when you need to choose between many options based on the value of a single variable. It works by evaluating the variable once and then jumping to the corresponding case label that matches the variable's value. Each case label represents a possible value of the variable, and the code associated with that case is executed. If none of the case labels match, an optional default case can be executed.
 
+float price = 1000.00;
+bool isStudent = true;
+bool isMember = true;
 
-
-
-int day = 2;
-
-switch (day)
-{
-case 1:
-    printf(" It is Monday\n");
-    break;
-case 2:
-    printf(" It is Tuesday\n");
-    break;
-case 3:
-    printf(" It is Wednesday\n");
-    break;
-case 4: 
-    printf( "it is Thursday\n");
-    break;  
-case 5:
-    printf(" It is Friday\n");          
-    break;      
-
-    case 6:
-    printf(" It is Saturday\n");
-    break;
-case 7:
-    printf(" It is Sunday\n");  
-    break;
-
-default:
-    printf(" It is not a valid day\n");
-    break;
+if(isStudent){
+if (isMember){
+    
+    printf("You get a student discount of 10%\n");
+    price = price * 0.9;
+    printf("Your final price is: $%.2f\n", price);
+    printf("You get a member discount of 5%\n");
+    price = price * 0.95;
+    printf("Your final price is: $%.2f\n", price);
+}else{
+printf("You get a student discount of 10%\n");
+    price = price * 0.9;
+    printf("Your final price is: $%.2f\n", price);
 }
+}else if(isMember){
+    printf("You get a member discount of 5%\n");
+    price = price * 0.95;
+    printf("Your final price is: $%.2f\n", price);
 
 
+}
 return 0;
 
 
